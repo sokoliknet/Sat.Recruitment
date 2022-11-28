@@ -14,7 +14,6 @@ namespace Sat.Recruitment.Api.Controllers
     {
         private readonly IUserService _userService;
 
-        private readonly List<UserDto> _users = new List<UserDto>();
         public UsersController(IUserService userService)
         {
             _userService = userService;
